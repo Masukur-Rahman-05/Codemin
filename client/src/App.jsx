@@ -8,20 +8,19 @@ function App() {
 
   return (
     <div className="min-h-screen w-full bg-stone-900 text-white p-4 sm:p-6 overflow-x-hidden">
+      <div className="mb-6">
+        <h1 className="text-xl sm:text-2xl font-dot font-bold text-green-600 tracking-widest">
+          CODEMIN{" "}
+          <sup className="text-green-400 text-xs italic font-light">
+            - online editor -
+          </sup>
+        </h1>
+      </div>
       {loading && (
         <div className="fixed inset-0 bg-stone-900 bg-opacity-90 flex items-center justify-center z-50">
           <ClockLoader color="#36d399" />
         </div>
       )}
-
-      <div className="mb-6">
-        <h1 className="text-xl sm:text-2xl font-dot font-bold text-green-600 tracking-widest">
-          CODE EDITOR{" "}
-          <sup className="text-green-400 text-xs italic font-light">
-            - online -
-          </sup>
-        </h1>
-      </div>
 
       {/* Editor + Output */}
       <div className="w-full flex flex-col gap-6">
