@@ -15,8 +15,9 @@ function App() {
             - online editor -
           </sup>
         </h1>
-        <p className="text-xs font-dot sm:text-sm text-red-600">
-          X Not Recommended for Mobile Devices
+
+        <p className="text-xs sm:text-sm text-gray-200 font-dot tracking-widest">
+          Not Recommended for Mobile Devices
         </p>
       </div>
       {loading && (

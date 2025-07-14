@@ -14,7 +14,7 @@ export const LanguageList = ({ language, onSelect }) => {
   return (
     <div className="flex justify-start mb-5">
       <Select value={language} onValueChange={onSelect}>
-        <SelectTrigger className="w-[180px] bg-stone-800 capitalize text-gray-200 border border-gray-700 font-dot">
+        <SelectTrigger className="w-[180px] bg-stone-800 capitalize text-gray-200 border border-gray-700 font-dot cursor-pointer">
           <SelectValue placeholder="Select a Language" />
         </SelectTrigger>
         <SelectContent className="bg-stone-900 font-dot text-gray-200 border border-stone-700">
