@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="min-h-screen w-full bg-stone-900 text-white p-4 sm:p-6 overflow-x-hidden">
       <div className="mb-6">
-        <h1 className="text-xl sm:text-2xl font-dot font-bold text-green-600 tracking-widest">
+        <h1 className="text-xl sm:text-2xl font-dot font-bold text-green-600 tracking-widest flex items-center">
           CODEMIN{" "}
           <sup className="text-green-400 text-xs italic font-light">
             - online editor -
@@ -40,8 +40,7 @@ function App() {
             href="https://www.linkedin.com/in/md-masukur-rahaman-927790343/"
             className="text-green-400 hover:text-green-600 flex items-center gap-1"
           >
-            <FaLinkedin className="w-4 h-4 text-white" />
-            Masukur Rahaman
+            <FaLinkedin className="w-4 h-4 text-white mr-1" /> Masukur Rahaman
           </a>
         </h2>
       </div>
