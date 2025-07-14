@@ -15,6 +15,9 @@ function App() {
             - online editor -
           </sup>
         </h1>
+        <p className="text-xs font-dot sm:text-sm text-red-600">
+          X Not Recommended for Mobile Devices
+        </p>
       </div>
       {loading && (
         <div className="fixed inset-0 bg-stone-900 bg-opacity-90 flex items-center justify-center z-50">
