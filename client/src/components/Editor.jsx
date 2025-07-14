@@ -23,6 +23,11 @@ export const CodeEditor = ({ setLoading }) => {
     editor.setPosition({ lineNumber: lineCount, column: lastLineLength + 1 });
     editor.focus();
 
+    editor.updateOptions({
+      readOnly: false,
+      domReadOnly: false,
+    });
+
     setLoading(false);
   };
 
@@ -58,6 +63,18 @@ export const CodeEditor = ({ setLoading }) => {
             lineNumbers: "on",
             mouseWheelZoom: true,
             padding: { top: 18, bottom: 16 },
+            // ✅ Fixes for mobile
+            accessibilitySupport: "on", // Enables better keyboard integration
+            readOnly: false,
+            domReadOnly: false,
+            lineDecorationsWidth: 0,
+            overviewRulerLanes: 0,
+            contextmenu: false, // Native mobile context menu preferred
+            renderLineHighlight: "none",
+            scrollbar: {
+              alwaysConsumeMouseWheel: false,
+            },
+            cursorBlinking: "expand",
           }}
         />
       </div>
