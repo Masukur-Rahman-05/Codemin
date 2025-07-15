@@ -97,6 +97,11 @@ export const Output = forwardRef(({ language, editorRef }, ref) => {
               >
                 {result}
               </pre>
+              {error === 0 && (
+                <p className="text-stone-400 font-dot text-sm">
+                  Successfully Executed
+                </p>
+              )}
             </div>
           </div>
         )}
