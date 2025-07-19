@@ -30,13 +30,13 @@ npm run dev
 
 ### Official Resources
 
-- [For Options and Values](#https://microsoft.github.io/monaco-editor/docs.html#interfaces/editor.IEditorOptions.html)
-- [Resources Provided by its Contributor](#https://monaco-react.surenatoyan.com/)
+- [For Options and Values](https://microsoft.github.io/monaco-editor/docs.html#interfaces/editor.IEditorOptions.html)
+- [Resources Provided by its Contributor](https://monaco-react.surenatoyan.com/)
 - [NPM Package](https://www.npmjs.com/package/@monaco-editor/react)
-- [Github Repo of Monaco Editor](#https://github.com/microsoft/monaco-editor)
-- [Piston API](#https://piston.readthedocs.io/en/latest/api-v2/)
-- [Piston Github Repo](#https://github.com/engineer-man/piston)
+- [Github Repo of Monaco Editor](https://github.com/microsoft/monaco-editor)
+- [Piston API](https://piston.readthedocs.io/en/latest/api-v2/)
+- [Piston Github Repo](https://github.com/engineer-man/piston)
 
 
 
-Stay Connected - [Linkedin](#https://www.linkedin.com/in/md-masukur-rahaman-927790343/)
+Stay Connected - [Linkedin](https://www.linkedin.com/in/md-masukur-rahaman-927790343/)
