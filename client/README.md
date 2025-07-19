@@ -1,12 +1,42 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# CODEMIN
 
-Currently, two official plugins are available:
+Codemin is an instant code editor built for minimalist design with dark looking interface. No extra time in login or sign up or any other fancy design. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Technologies
+- [x] React (vite)
+- [x] Axios
+- [x] monaco-editor/rect (npm)
+- [x] Piston API
 
-## Expanding the ESLint configuration
+### Deployment
+- Vercel
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### For Practice
+
+```markdown
+git clone git@github.com:Masukur-Rahman-05/Codemin.git 
+
+cd client
+
+npm install
+
+npm run dev
+ 
+```
+
+
+
+
+### Official Resources
+
+- [For Options and Values](#https://microsoft.github.io/monaco-editor/docs.html#interfaces/editor.IEditorOptions.html)
+- [Resources Provided by its Contributor](#https://monaco-react.surenatoyan.com/)
+- [NPM Package](https://www.npmjs.com/package/@monaco-editor/react)
+- [Github Repo of Monaco Editor](#https://github.com/microsoft/monaco-editor)
+- [Piston API](#https://piston.readthedocs.io/en/latest/api-v2/)
+- [Piston Github Repo](#https://github.com/engineer-man/piston)
+
+
+
+Stay Connected - [Linkedin](#https://www.linkedin.com/in/md-masukur-rahaman-927790343/)
